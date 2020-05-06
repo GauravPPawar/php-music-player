@@ -1,0 +1,10 @@
+name: music-player
+image: lastyearproject/dockerapps:music_player
+command: ["bash"]
+forward:
+  - 8080:8080
+reverse:
+  - 9000:9000
+
+
+
